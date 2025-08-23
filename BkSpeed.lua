@@ -41,7 +41,6 @@ end)
 
 getgenv().SpeedBypass = true
 
-getgenv().Options.SpeedBoostSlie:SetMax(35)
 
 
 while task.wait() do
