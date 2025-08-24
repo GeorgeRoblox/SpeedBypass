@@ -68,7 +68,7 @@ HumanoidRootPart.Massless = false
 		
 		if CollisionClone then
 			CollisionClone.Massless = true
-      CollisionClone.Size = 7.5,3,3
+            CollisionClone.Size = 7.5,3,3
 			HumanoidRootPart.Massless = false
 			HumanoidRootPart.RootPriority = 0
 		end
