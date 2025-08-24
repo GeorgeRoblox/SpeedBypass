@@ -37,11 +37,7 @@ task.wait(1)
 	Character = NewCharacter
 end)
 
-
-
 getgenv().SpeedBypass = true
-
-
 
 while task.wait() do
 	if getgenv().SpeedBypass == true and CollisionClone and Player.Character:FindFirstChild("HumanoidRootPart") then
@@ -68,7 +64,6 @@ HumanoidRootPart.Massless = false
 		
 		if CollisionClone then
 			CollisionClone.Massless = true
-            CollisionClone.Size = 7.5,3,3
 			HumanoidRootPart.Massless = false
 			HumanoidRootPart.RootPriority = 0
 		end
